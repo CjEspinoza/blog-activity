@@ -1,0 +1,63 @@
+body{
+    background-color:#393e46;
+    overflow-x: hidden;
+}
+header{
+    height: 80px;
+    width: 101.3%;
+    background-color: #393e46;
+    margin: -10px;
+}
+header img{
+    height: 65px;
+    width: 70px;
+    margin: 10px;
+    margin-right: -20px;
+}
+.menu{
+    background-color: #4ecca3;
+    margin-top: 10px;
+    width: 70%;
+}
+.menu td{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+div.left-panel{
+    background-color:  #232931;
+    height: 665px;
+    width: 238px;
+    margin: -10px;
+    margin-top: -647px;
+}
+div.right-panel{
+    background-color:  #232931;
+    height: 665px;
+    width: 238px;
+    margin: -10px;
+    margin-left: 1290px;
+    margin-top: -665px;
+}
+#frame{
+    width: 980px;
+    height: 600px;
+    margin: -10px;
+    margin-left: 18px;
+    margin-top: 30px;
+}
+.qt{
+    text-align: center;
+    color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.left-panel img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+.teamstext{
+    color: lightgray;
+    font-family: century gothic;
+    margin-top: 40px;
+}
