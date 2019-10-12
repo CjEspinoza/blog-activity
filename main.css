@@ -1,5 +1,5 @@
 body{
-    background-color:#393e46;
+    background-repeat: no-repeat;
     overflow-x: hidden;
 }
 header{
@@ -60,4 +60,16 @@ div.right-panel{
     color: lightgray;
     font-family: century gothic;
     margin-top: 40px;
+}
+#bggif{
+    margin-left: -10px;
+    position: absolute;
+    z-index: -4;
+    width: 1800px;
+    height: 755px;
+}
+#me{
+    float: right;
+    margin-right: 30px;
+    border-radius: 100%;
 }
