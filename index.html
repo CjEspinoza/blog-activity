@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Worlds 2019</title>
+    <link rel = "icon" type = "image/png" href = "img/mainlogo.png">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <img src="img/bggif.gif" id="bggif">
     <header>
         <img src="img/mainlogo.png" alt="mainlogo">
-        <img src="img/lollogo.png" alt="lollogo">
-        <img src="img/me.jpg" id="me">
+        <img src="img/lollogo.png" alt="lollogo" id="lollogo">
     </header>
     <main><center>
         <div class="menu">
@@ -29,9 +29,10 @@
         <center>
                 <iframe src="home.html" frameborder="0" id="frame" name="frame">
                 </iframe>
+                
             </center>
-        <div class="left-panel"><center><br><br> 
-            <label class="qt">Qualified Teams</label><br><br><hr>
+        <div class="left-panel"><center><br><br> <br>
+            <label class="qt">Qualified Teams</label><br><hr>
             <br><label class="teamstext">LCK (South Korea)</label><br>
             <img src="img/skt.png" alt="">
             <img src="img/dawon.png">
@@ -53,12 +54,16 @@
             <img src="/img/marines.png" alt="">
         </center>
         </div>
-        <div class="right-panel">
-            
+        <div class="right-panel"><br><br><br>
+            <iframe src="sched.html" frameborder="0" id="rpframe"></iframe>
         </div>
         
     </main>
-    
+    <footer>
+        <center>
+                <i>Copyright &copy;<span id="getYear"></span></i>
+        </center>
+    </footer>
 </body>
 <script src="main.js"></script>
 </html>

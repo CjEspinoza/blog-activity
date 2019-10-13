@@ -1,12 +1,13 @@
 body{
     background-repeat: no-repeat;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 header{
     height: 80px;
     width: 101.3%;
     background-color: #393e46;
     margin: -10px;
+    box-shadow: 0px 5px 5px black;
 }
 header img{
     height: 65px;
@@ -15,35 +16,43 @@ header img{
     margin-right: -20px;
 }
 .menu{
-    background-color: #4ecca3;
+    background-color: black;
     margin-top: 10px;
-    width: 70%;
+    width: 69.5%;
+    z-index: -1;
 }
 .menu td{
     padding-left: 60px;
     padding-right: 60px;
 }
 div.left-panel{
+    position: sticky;
     background-color:  #232931;
-    height: 665px;
+    height: 655px;
     width: 238px;
     margin: -10px;
     margin-top: -647px;
+    z-index: -1;
+    box-shadow: 0px 10px 10px 10px black;
 }
 div.right-panel{
+    position: sticky;
     background-color:  #232931;
     height: 665px;
     width: 238px;
     margin: -10px;
     margin-left: 1290px;
-    margin-top: -665px;
+    margin-top: -666px;
+    z-index: -1;
+    box-shadow: 0px 10px 10px 10px black;
 }
 #frame{
-    width: 980px;
-    height: 600px;
+    width: 955px;
+    height: 580px;
     margin: -10px;
-    margin-left: 18px;
-    margin-top: 30px;
+    margin-left: -10px;
+    margin-top: 20px;
+    box-shadow: 0px 10px 10px 10px black;
 }
 .qt{
     text-align: center;
@@ -68,8 +77,60 @@ div.right-panel{
     width: 1800px;
     height: 755px;
 }
-#me{
+.menu a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.884);
+    font-family: century gothic;
+}
+.menu a:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.menu td:hover{
+    background-color: rgba(0, 255, 170, 0.575);
+}
+.calendar{
+    color: lightgray;
+    font-family: century gothic;
+    margin-top: 40px;
+    margin-left:  70px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.match{
+    color: lightgray;
+    font-family: century gothic;
+    margin-top: 40px;
+    font-size: 15px;
+}
+#datetimesched{
+    font-size: 18px;
+}
+#rpframe{
+    height: 650px;
+    width: 250px;
+    margin-left: -20px;
+}
+footer{
+    background-color: #393e46;
+    margin-top: 30px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 5px;
+    height: 32px;
+    margin-bottom: -20px;
+    color: rgba(255, 255, 255, 0.712);
+}
+#getYear{
+    color: rgba(255, 255, 255, 0.712);
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+#lollogo{
     float: right;
     margin-right: 30px;
-    border-radius: 100%;
 }

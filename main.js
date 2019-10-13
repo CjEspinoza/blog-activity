@@ -1,3 +1,7 @@
+let date = new Date();
+  let yearPos = document.getElementById("getYear");
+  let currYear = date.getFullYear();
+  yearPos.innerHTML = currYear;
 function openModal() {
     document.getElementById("myModal").style.display = "block";
   }
@@ -37,3 +41,4 @@ function openModal() {
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
+  
