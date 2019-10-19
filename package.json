@@ -1,7 +1,6 @@
 {
   "name": "blog-activity",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "homepage": "https://github.io/CjEspinoza/blog-activity",
   "scripts": {
@@ -19,5 +18,7 @@
   },
   "dependencies": {
     "gh-pages": "^2.1.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
