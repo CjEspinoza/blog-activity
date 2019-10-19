@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
+  "homepage": "https://github.io/CjEspinoza/blog-activity",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy":"gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/CjEspinoza/blog-activity/issues"
   },
-  "homepage": "https://github.com/CjEspinoza/blog-activity#readme",
   "dependencies": {
     "gh-pages": "^2.1.1"
   }
