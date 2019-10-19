@@ -1,0 +1,22 @@
+{
+  "name": "blog-activity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CjEspinoza/blog-activity.git"
+  },
+  "author": "Cj Espinoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CjEspinoza/blog-activity/issues"
+  },
+  "homepage": "https://github.com/CjEspinoza/blog-activity#readme",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
